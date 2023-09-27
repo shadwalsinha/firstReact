@@ -5,10 +5,11 @@ import ReactDOM from "react-dom/client";
 export const HeaderComponent = () => {
   return (
     <div className="Header">
-      <div>
+      <div className="logoAndName">
         <img src={logo} className="logoImage"></img>
+        <h1 className="comapanyName">Food<span className="blackM">Mate</span></h1>
       </div>
-      <div>
+      <div className="Nav">
         <ul className="Menu">
           <li>
             <span className="content"> Home </span>

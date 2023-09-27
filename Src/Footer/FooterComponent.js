@@ -1,5 +1,5 @@
 import "../Footer/Footer.css"
-import logo from "../assets/logo.png";
+import logo from "../../assets/logo.png"
 import FacebookIcon from '@mui/icons-material/FacebookRounded';
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -24,7 +24,7 @@ export const Footer = () => {
         <li>About Delivery Partner</li>
         <li>Donation</li>
       </ul>
-      <div>
+      <div className="FooterSocial">
         <h3> Social Links</h3>
         <ul className="SocialIcons">
           <li><InstagramIcon size="large"/></li>
