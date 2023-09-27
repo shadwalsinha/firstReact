@@ -1,0 +1,47 @@
+.BodyHeading{
+    color: rgb(28, 28, 28);
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 10px 0px 0px 0px ;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.BodyContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin: 0px 30px;
+}
+input.SearchItem{
+    height: 33px;
+    width: 300px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff5757;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+.SearchItem::placeholder{
+    color: white;
+}
+
+input.SearchItem:focus{
+    border: none;
+    outline: none;
+}
+
+.custom-icon{
+    color:#ff5757;
+    font-size: 33px; 
+}
+.AllRes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

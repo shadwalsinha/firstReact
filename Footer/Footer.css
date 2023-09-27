@@ -1,0 +1,32 @@
+.FooterBody{
+    background-color: rgb(248, 248, 248);
+}
+
+.FooterContent{
+    height: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.logoImage1{
+    height: 200px;
+    object-fit: contain;
+}
+
+.FooterElements{
+    list-style: none;
+    line-height: 1px;
+}
+
+.SocialIcons{
+    list-style: none;
+    display: flex;
+}
+
+.FooterSocial {
+    align-items: center; 
+    text-align: center; 
+  }

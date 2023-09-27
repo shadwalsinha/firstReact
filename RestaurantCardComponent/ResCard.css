@@ -1,0 +1,11 @@
+.CardContainer{
+    padding:50px
+}
+.CardContainer :hover{
+    cursor: pointer;
+}
+
+
+.card-media{
+  object-fit: contain;
+}
