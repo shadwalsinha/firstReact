@@ -1,5 +1,5 @@
 import "../Footer/Footer.css"
-import logo from "../../assets/logo.png"
+import logo from "../../assets/Logo.png"
 import FacebookIcon from '@mui/icons-material/FacebookRounded';
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
