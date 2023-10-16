@@ -29,7 +29,7 @@ export const MediaCard = ({resData}) => {
         </CardContent>
         <CardActions>
           <Button size="small">{resData.rating} Star</Button>
-          <Button size="small">{resData.deliveryTime}</Button>
+          <Button size="small">{resData.foodtype}</Button>
         </CardActions>
       </Card>
     </div>

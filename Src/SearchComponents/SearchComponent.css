@@ -14,7 +14,7 @@
     padding: 50px;
     margin: 0px 30px;
 }
-input.SearchItem{
+input.SearchItem {
     height: 33px;
     width: 300px;
     margin-top: 15px;
@@ -26,6 +26,19 @@ input.SearchItem{
     padding-left: 20px;
     font-size: 1rem;
 }
+
+.filter-btn{
+    height: 45px;
+    width: 200px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff5757;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
 
 .SearchItem::placeholder{
     color: white;
@@ -44,4 +57,8 @@ input.SearchItem:focus{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.foodType label{
+    padding: 20px;
 }
